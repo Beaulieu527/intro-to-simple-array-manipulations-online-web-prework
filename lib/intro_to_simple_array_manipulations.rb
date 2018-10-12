@@ -39,6 +39,6 @@ def using_delete(array,integer, string)
   array.delete_at(string)
 end
 
-def using_concat(array1,array2)
-  array.concat([array1, array2])
+def using_concat(array,array2)
+  array.concat([array, array2])
 end
