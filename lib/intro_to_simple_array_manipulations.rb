@@ -23,15 +23,17 @@ def shift_with_args(array)
 end
 
 def using_insert(array, i)
-  array.insert(i)
+  array.insert()
 end
 
 def using_uniq(array)
-  
+  array.uniq
 end
 
 def using_flatten(array)
+
 end
 
 def using_delete(array,string)
+  array.delete(string)
 end
