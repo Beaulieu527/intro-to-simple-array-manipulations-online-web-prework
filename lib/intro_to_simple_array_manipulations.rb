@@ -38,8 +38,8 @@ def using_delete(array, string)
   array.delete(string)
 end
 
-def delete_at(array, integer)
- array.delete_at(integer)
+def delete_at(array, i)
+ array.delete_at(i)
 end
 
 def using_concat(array,array2)
