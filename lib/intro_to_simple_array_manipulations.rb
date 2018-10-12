@@ -23,6 +23,7 @@ def shift_with_args(array)
 end
 
 def using_insert(array, i)
+  array.insert(i)
 end
 
 def using_uniq(array)
