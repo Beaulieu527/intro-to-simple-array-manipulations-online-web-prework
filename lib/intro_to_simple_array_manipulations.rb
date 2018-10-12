@@ -23,7 +23,7 @@ def shift_with_args(array)
 end
 
 def using_insert(array, i)
-  array.insert()
+  array.insert(4,i)
 end
 
 def using_uniq(array)
@@ -36,4 +36,8 @@ end
 
 def using_delete(array,integer)
   array.delete(integer)
+end
+
+def using_concat(array1,array2)
+
 end
