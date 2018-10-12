@@ -27,6 +27,7 @@ def using_insert(array, i)
 end
 
 def using_uniq(array)
+  
 end
 
 def using_flatten(array)
