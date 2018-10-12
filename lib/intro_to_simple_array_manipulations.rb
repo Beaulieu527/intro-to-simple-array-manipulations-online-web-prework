@@ -43,5 +43,5 @@ def using_delete_at(array, i)
 end
 
 def using_concat(array,array2)
-  [array,array2].concat
+  array.concat(array2)
 end
